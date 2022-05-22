@@ -6,6 +6,10 @@
 
 > This application was created as a virtual wallet where you store information about your expenses, such as value, payment method, divided by tags. In addition to having used the principles of the CRUD cycle, we have a detail area that informs: Payment method, exchange used, conversion currency, etc.
 
+<img src="src/images/project/login.png" />
+<img src="src/images/project/wallet.png" />
+<img src="src/images/project/details.png" />
+
 ## Technologies Used
 
 * HTML
