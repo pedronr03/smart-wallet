@@ -5,6 +5,7 @@ import Wallet from './pages/Wallet'
 
 export default class Routes extends Component {
   render() {
+    console.log('developed by pedro reis');
     return (
       <Switch>
         <Route path="/wallet" component={ Wallet } />

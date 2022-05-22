@@ -229,20 +229,24 @@
   box-shadow: 0 0 10px var(--font-color-4);
 }
 
-.details > div > div {
-  padding: 10px 20px;
+.details > div > div:nth-child( 2 ) {
+  height: 60%;
+  padding: 0 25px 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-.details > div > div > p {
-  margin: 10px 0;
+.details > div > div:nth-child( 2 ) > p {
+  margin: 5px 0;
   color: var(--font-color-5);
   font-size: 14px;
   font-weight: 300;
 }
 
 .details > div > div > h2:nth-child(1) {
-  margin-top: 3px;
+  margin-bottom: 10px;
   color: var(--font-color-5);
-  font-size: var(--mid-size-3);
+  font-size: var(--mid-size-2);
   font-weight: 500;
 }

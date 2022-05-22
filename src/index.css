@@ -45,8 +45,10 @@
 .cardBackground {
   background-size: cover;
   background-position: center;
-  height:25vh;
+  height: 40%;
   border-radius: 8px 8px 0 0;
+  padding: 10px;
+  border-bottom: 1px solid var(--font-color-2);
 }
 
 .Entertainment {
@@ -71,4 +73,38 @@
 
 .Other {
   background-image: url(./images/Other.jpg);
+}
+
+.tagItem {
+  border-radius: 5px;
+  box-shadow: 0 0 5px var(--font-color-5);
+  color: var(--font-color-1);
+  font-weight: 500;
+  font-size: 12px;
+  padding: 5px 10px;
+  width: fit-content;
+}
+
+.EntertainmentTag {
+  background-color: rgb(24, 87, 150);
+}
+
+.FoodTag {
+  background-color: rgb(25, 25, 25);
+}
+
+.HealthTag {
+  background-color: rgb(174, 108, 2);
+}
+
+.TransportationTag {
+  background-color: rgb(109, 109, 109);
+}
+
+.WorkTag {
+  background-color: rgb(16, 0, 165);
+}
+
+.OtherTag {
+  background-color: rgb(9, 68, 0);
 }

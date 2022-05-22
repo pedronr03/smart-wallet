@@ -95,10 +95,13 @@ class WalletPage extends React.Component {
                   onClick={ this.closeDetails }
                 />
                 <div>
-                  <div className={ `${targetDetails.tag} cardBackground` } />
+                  <div className={ `${targetDetails.tag} cardBackground` }>
+                    <div className={ `${targetDetails.tag}Tag tagItem` }>
+                      <p>{ targetDetails.tag }</p>
+                    </div>
+                  </div>
                   <div>
                     <h2>{ targetDetails.description }</h2>
-                    <p>Tag: { targetDetails.tag }</p>
                     <p>Payment method: { targetDetails.method }</p>
                     <p>Currency: { `${targetDetails.exchangeRates[targetDetails.currency].name}` }</p>
                     <p>Exchange used: { Number(targetDetails.exchangeRates[targetDetails.currency].ask).toFixed(2) }</p>
