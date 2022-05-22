@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&display=swap');
+
+::-webkit-scrollbar-track {
+  background-color: #d1d1d1;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  background: #bbbbbb;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #757575;
+}
+
+* {
+  font-family: Inter, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --font-color-1: rgb(245,245,245);
+  --font-color-2: rgb(171,171,171);
+  --font-color-3: rgb(115,115,115);
+  --font-color-4: rgb(66, 66, 66);
+  --font-color-5: rgb(27, 27, 27);
+  --font-color-6: rgb(64, 137, 58);
+  --main-color-1: rgb(84, 179, 75); 
+  --main-color-2: rgb(255, 255, 255);
+  --main-color-3: rgb(83, 83, 83);
+  --small-size-1: 6px;
+  --small-size-2: 10px;
+  --small-size-3: 14px;
+  --mid-size-1: 16px;
+  --mid-size-2: 22px;
+  --mid-size-3: 28px;
+  --mid-size-4: 32px;
+  --big-size-1: 40px;
+  --big-size-2: 56px;
+  --big-size-3: 72px;
+}
+
+.cardBackground {
+  background-size: cover;
+  background-position: center;
+  height:25vh;
+  border-radius: 8px 8px 0 0;
+}
+
+.Entertainment {
+  background-image: url(./images/Entertainment.jpg);
+}
+
+.Food {
+  background-image: url(./images/Food.jpg);
+}
+
+.Health {
+  background-image: url(./images/Health.jpg);
+}
+
+.Transportation {
+  background-image: url(./images/Transportation.jpg);
+}
+
+.Work {
+  background-image: url(./images/Work.jpg);
+}
+
+.Other {
+  background-image: url(./images/Other.jpg);
+}

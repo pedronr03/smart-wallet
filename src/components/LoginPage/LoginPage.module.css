@@ -1,0 +1,109 @@
+.main {
+  background-image: url('../../images/towfiqu-barbhuiya-nApaSgkzaxg-unsplash.jpg');
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+}
+
+.leftSide div {
+  width: 60%;
+}
+
+.rightSide > div:nth-child( 1 ) {
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.4);
+  border: 1px solid var(--font-color-1);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  padding: 7px;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  transition: all 300ms ease-in-out;
+  word-break: break-all;
+}
+
+.leftSide > div:nth-child( 1 ) {
+  margin-bottom: 18px;
+}
+
+.rightSide > div:nth-child( 1 ):hover {
+  cursor: pointer;
+  transform: scale(1.03);
+}
+
+.rightSide > div > img {
+  width: 45px;
+}
+
+.leftSide {
+  align-items: center;
+  background-color: var(--main-color-2);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 45vw;
+}
+
+.leftSide > div:nth-child( 1 ) h1 {
+  color: var(--font-color-5);
+  font-size: var(--mid-size-4);
+  margin-bottom: 6px;
+}
+
+.leftSide > div:nth-child( 1 ) p {
+  color: var(--font-color-3);
+  font-size: var(--small-size-3);
+  font-weight: 300;
+}
+
+.form {
+  margin-bottom: 25px;
+}
+
+.form input {
+  border: 1px solid var(--font-color-2);
+  border-radius: 7px;
+  height: 6vh;
+  margin-top: 5px;
+  outline: none;
+  padding: 0 8px;
+  width: 100%;
+}
+
+.form label {
+  color: var(--font-color-5);
+  font-size: var(--small-size-3);
+  font-weight: 500;
+}
+
+.form > label:nth-child( 1 ) > input {
+  margin-bottom: 8px;
+}
+
+.leftSide > div:nth-child( 3 ) button {
+  background-color: var(--font-color-5);
+  border: none;
+  border-radius: 7px;
+  color: var(--font-color-1);
+  cursor: pointer;
+  font-weight: 500;
+  height: 6vh;
+  transition: all 300ms ease-in-out;
+  width: 100%;
+}
+
+.leftSide > div:nth-child( 3 ) button:disabled {
+  background-color: var(--main-color-3);
+  cursor: not-allowed;
+}
+
+.rightSide {
+  border-left: 1px solid var(--font-color-2);
+  display: flex;
+  padding: 30px;
+  width: 55vw;
+}
